@@ -1,1 +1,1 @@
-# note-just
+# You must study!!!
