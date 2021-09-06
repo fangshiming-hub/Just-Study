@@ -2,6 +2,7 @@ import "./style/index1.css";
 import "./style/index2.css";
 import "./style/index.less";
 import "./js/test1";
+import _ from "lodash";
 
 import keyboard from "@/img/keyboard.jpg";
 import yumaoqiu from "@/img/yumaoqiu.png";
@@ -18,6 +19,11 @@ const arr = [1,2,3];
 arr.forEach((item) => {
   console.log(item)
 })
+setTimeout(() => {
+    throw new Error("测试的错误");
+})
+const a = {name: "xiaoming"};
+const b = _.cloneDeep(a);
 
 function testPromise(){
     return new Promise((resolve, reject) => {
