@@ -11,7 +11,7 @@
     <code>
         function add(){}
     </code>
-    ```JavaScript
+    ```javaScript
         function add(){}
     ```
 </details>
